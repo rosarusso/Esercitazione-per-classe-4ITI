@@ -1,9 +1,5 @@
 # prova4ITI
-Caso pratico: esercizio 13 a pag. 140 del libro di Tecnologie e progettazione di sistemi informatici e di telecomunicazioni, classe 4 ITI.
-Dopo aver scaricato dal sito git-scm.com la versione del VCS Git per il sistema operativo utilizzato ed averla installata, creare un repository
-locale con una copia inizialmente uguale del codice sorgente del progetto software Expense-manager (disponibile al repository GitHub
-https://github.com/giorgio-meini/ZanichelliExpenseManager ). Apportare modifiche migliorative al codice e, una volta ultimato l'aggiornamento,
-riversarlo in un proprio repository GitHub appositamente creato.
+Caso pratico: esercizio 13 a pag. 140 del libro di Tecnologie e progettazione di sistemi informatici e di telecomunicazioni, classe 4 ITI. Dopo aver scaricato dal sito git-scm.com la versione del VCS Git per il sistema operativo utilizzato ed averla installata, creare un repository locale con una copia inizialmente uguale del codice sorgente del progetto software Expense-manager (disponibile al repository GitHub https://github.com/giorgio-meini/ZanichelliExpenseManager ). Apportare modifiche migliorative al codice e, una volta ultimato l'aggiornamento, riversarlo in un proprio repository GitHub appositamente creato.
 
 > git clone https://github.com/giorgio-meini/ZanichelliExpenseManager.git
 
