@@ -29,7 +29,7 @@ Usa il branch main (default di github)
 > git checkout -b main
 
 Aggiunta dell’indirizzo remoto nel repository locale (collega il repo locale al remoto):
-> git remote add origin link-al-repository-personale
+> git remote add origin <link-al-repository-personale>
 
 > git status
 
@@ -37,7 +37,7 @@ Aggiunta dell’indirizzo remoto nel repository locale (collega il repo locale a
 > git pull origin main
 
 ![](conflitto.png)
-Come si vede nell'immagine, il file README presenta un potenziale conflitto. In questo caso, cambia il nome del vecchio file:
+Come si vede nell'immagine, nel caso in cui il repository appena creato abbia già un README di default si presenta un conflitto. In questo caso, si potrebbe modificare il nome del vecchio file:
 > mv README.md readme.old
 
 > git pull origin main
@@ -50,9 +50,9 @@ Aggiunta contenuto cartella nello stage:
 Prova a fare un commit (sincronizza il contenuto locale con quello dello stage, integra le modifiche all’interno del repository)
 > git commit -m "Carica i file del progetto ExpenseManager"
 
-> git config --global user.email "email-account-git"
+> git config --global user.email "<email-account-git>"
 
-> git commit -m "Carica i file del progetto ExpenseManager"
+> git commit -m "Add file del progetto ExpenseManager"
 
 Sincronizza il repository remoto con il contenuto del repository locale:
 > git push origin master
@@ -60,7 +60,7 @@ Sincronizza il repository remoto con il contenuto del repository locale:
 Effettua il login.
 
 **Per apportare modifiche al repository remoto**:
-> git add nome-file-aggiornato-o-regex
+> git add <nome-file-aggiornato-o-regex>
 > 
 > git commit -m “Descrizione delle modifiche”
 > 
