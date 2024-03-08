@@ -29,7 +29,7 @@ Usa il branch main (default di github)
 > git checkout -b main
 
 Aggiunta dell’indirizzo remoto nel repository locale (collega il repo locale al remoto):
-> git remote add origin link-al-reposiyory-personale
+> git remote add origin link-al-repository-personale
 
 > git status
 
