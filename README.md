@@ -50,7 +50,7 @@ Aggiunta contenuto cartella nello stage:
 Prova a fare un commit (sincronizza il contenuto locale con quello dello stage, integra le modifiche all’interno del repository)
 > git commit -m "Carica i file del progetto ExpenseManager"
 
-> git config --global user.email "'<'email-account-git>'"'
+> git config --global user.email "<'email-account-git>'"
 
 > git commit -m "Add file del progetto ExpenseManager"
 
