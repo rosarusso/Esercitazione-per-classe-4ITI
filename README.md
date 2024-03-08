@@ -60,7 +60,7 @@ Sincronizza il repository remoto con il contenuto del repository locale:
 Effettua il login.
 
 **Per apportare modifiche al repository remoto**:
-> git add '<nome-file-aggiornato-o-regex>'
+> git add '<'nome-file-aggiornato-o-regex>
 > 
 > git commit -m “Descrizione delle modifiche”
 > 
