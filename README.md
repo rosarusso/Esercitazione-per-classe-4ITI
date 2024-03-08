@@ -48,20 +48,18 @@ Aggiunta contenuto cartella nello stage:
 > git add .
 
 Prova a fare un commit (sincronizza il contenuto locale con quello dello stage, integra le modifiche all’interno del repository)
-> git commit -m "Carica i file del progetto ExpenseManager"
-
-> git config --global user.email "\<email-account-git\>"
-
 > git commit -m "Add file del progetto ExpenseManager"
 
-Sincronizza il repository remoto con il contenuto del repository locale:
-> git push origin master
+Se viene chiesta l'autenticazione:
+> git config --global user.email "\<email-account-git\>"
+e, se necessario, ripetere il commit.
 
-Effettua il login.
+Sincronizza il repository remoto con il contenuto del repository locale:
+> git push origin main
 
 **Per apportare modifiche al repository remoto**:
 > git add \<nome-file-aggiornato-o-regex\>
 > 
-> git commit -m “Descrizione delle modifiche”
+> git commit -m “\<Descrizione delle modifiche\>”
 > 
 > git push origin main
